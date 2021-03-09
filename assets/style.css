@@ -5,14 +5,16 @@
 .foto img{
   height: 350px;
   border-radius: 10px;
-  border: 1px solid black;
   margin-left: 40px;
   margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: -20px 20px #acacac;
 }
 
 .headline{
   margin-left: 20px;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 
 .headline h1{
@@ -30,8 +32,29 @@
 .headline p{
   font-size: 18px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .border{
   border: 1px solid black;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.tombol{
+  text-decoration: none;
+  background-color: gray;
+  padding: 15px;
+  color: white;
+  top: 20px;
+}
+
+.tombol:hover{
+  background-color: black;
+  transition: 0.65s ease-out;
 }
