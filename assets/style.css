@@ -1,62 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
   font-family: 'Montserrat', sans-serif;
-  overflow: hidden;
-}
-.foto img{
-  height: 350px;
-  border-radius: 10px;
-  margin-left: 40px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  box-shadow: -20px 20px #acacac;
 }
 
-.headline{
-  margin-left: 20px;
-  margin-bottom: 20px;
-  margin-top: 60px;
+.awal{
+  text-align: center;
 }
 
-.headline h1{
+.awal img{
+  border-radius: 50%;
+  width: 300px;
+}
+
+.awal h2{
   font-size: 30px;
 }
 
-.headline s{
-  color: #acacaa;
-}
-.headline h2{
-  font-size: 25px;
-  font-weight: 300;
+.awal p{
+  font-size: 24px;
 }
 
-.headline p{
-  font-size: 18px;
-  font-weight: 500;
-  padding-bottom: 20px;
+.link-ig{
+  width: 75px !important; 
 }
 
-.border{
-  border: 1px solid black;
+.tabel,td,th{
+  border-spacing: 12px;
+  border: 1px solid #000000;
 }
 
-.row{
+.kedua{
   display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  justify-content: center;
 }
 
-.tombol{
-  text-decoration: none;
-  background-color: gray;
-  padding: 15px;
-  color: white;
-  top: 20px;
-  border-radius: 5px;
+
+/* PC VERSION */
+@media(min-width: 992px){
+  .awal{
+    color: aqua;
+  }
+
+  .kedua{
+    justify-content: start;
+  }
 }
 
-.tombol:hover{
-  background-color: black;
-  transition: 0.65s ease-out;
+/* TABLET VERSION */
+@media(min-width: 768px) and (max-width: 992px){
+  .awal{
+    color: yellowgreen;
+  }
 }
