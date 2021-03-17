@@ -7,13 +7,13 @@
 
 #headpage{
   border-radius: 50%;
-  width: 250px;
+  width: 200px;
   border: 12px solid #ffffff;
 }
 
 .foto{
   text-align: center !important;
-  margin-top: 15px;
+  margin-top: 45px;
 }
 
 .link{
@@ -31,7 +31,7 @@
 
 .text-awal{
   display: block;
-  font-size: 30px;
+  font-size: 16px;
   line-height: 1;
   margin-bottom: .5rem;
   text-align: center;
@@ -53,16 +53,20 @@
 
 
 .tentang-saya{
-  margin-top: 100px;
+  margin-top: 160px;
   text-align: center;
 }
 
 .tentang-saya h1{
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .biodata{
   text-align: center;
+}
+
+.detail-bio{
+  font-size: 12px;
 }
 
 .detail-bio span{
@@ -76,7 +80,7 @@
 .skill img{
   width: 80px;
   vertical-align: middle;
-  margin: auto 10px;
+  margin: 10px 10px;
   opacity: 60%;
 }
 
@@ -93,4 +97,31 @@
 
 .footer span{
   color: rgb(221, 0, 23);
+}
+
+/* DESKTOP */
+@media(min-width: 992px){
+  #headpage{
+    width: 250px;
+  }
+
+  .text-awal{
+    font-size: 30px;
+  }
+
+  .tentang-saya{
+    margin-top: 100px;
+  }
+
+  .tentang-saya h1{
+    font-size: 50px;
+  }
+
+  .detail-bio{
+    font-size: 22px;
+  }
+
+  .skill img{
+    margin: auto 10px;
+  }
 }
